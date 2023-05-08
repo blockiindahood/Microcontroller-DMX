@@ -7,10 +7,11 @@ This folder explains how to recieve DMX on Arduino Microcontrollers.
 **Compatible boards:** https://github.com/mathertel/DMXSerial/blob/master/README.md#supported-boards-and-processors
 
 ## Examples
-### Arduino Nano
-**Example Code:** //add code
+## Arduino Nano
+**Example Code:** https://github.com/blockiyt/Microcontroller-DMX/tree/main/Arduino/Arduino%20Nano/Examples
 
-//image and url to fritzing file
+![Fritzing Wiring](https://github.com/blockiyt/Microcontroller-DMX/blob/main/Arduino/Arduino%20Nano/Arduino_Nano_DMX_RS485.png?raw=true)
+**Wiring:**
 | RS485       | Arduino Nano | DMX |
 |-------------|--------------|-----|
 | VCC (PIN 8) | 5V           |     |
@@ -22,4 +23,3 @@ This folder explains how to recieve DMX on Arduino Microcontrollers.
 | A (PIN 7)   | -            | 3   |
 | B (PIN 8)   | -            | 2   |
 | -           | GND          | 1   |
-
