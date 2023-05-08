@@ -8,7 +8,8 @@ This folder explains how to recieve DMX on Arduino Microcontrollers.
 
 ## Examples
 ## Arduino Nano
-**Example Code:** https://github.com/blockiyt/Microcontroller-DMX/tree/main/Arduino/Arduino%20Nano/Examples
+**Example Code:** https://github.com/blockiyt/Microcontroller-DMX/tree/main/Arduino/Arduino%20Nano/Examples  
+**Important note when trying to upload:** You have to disconnect the RO Pin from MAX485 or the RX0 Pin from the Arduino to upload a sketch, because the MAX485 is using the Serial Port to communicate between the Arduino and the MAX485 board, and so does the USB Port.
 
 ![Fritzing Wiring](https://github.com/blockiyt/Microcontroller-DMX/blob/main/Arduino/Arduino%20Nano/Arduino_Nano_DMX_RS485.png?raw=true)
 **Wiring:**
